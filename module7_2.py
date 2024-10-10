@@ -1,6 +1,6 @@
 def custom_write(file_name, string):
     file_dict = {}
-    file = open(file_name, 'a', encoding='utf-8')
+    file = open(file_name, 'w', encoding='utf-8')
 
     for i in range(0, len(string)):
         file_dict[(i+1, file.tell())] = string[i]
