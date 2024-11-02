@@ -3,7 +3,7 @@ from random import choice
 first = 'Мама мыла раму'
 second = 'Рамена мало было'
 
-result = list(map(lambda x, y: x[0] == y[0], first, second))
+result = list(map(lambda x, y: x == y, first, second))
 
 print(list(result))
 
