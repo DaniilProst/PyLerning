@@ -53,7 +53,7 @@ class Tournament:
 
 
 logging.basicConfig(level=logging.INFO, filemode='w', filename="runner_tests.log", encoding='utf-8',
-                    format='%asc_time)s| (%(levelname)s | %(message)s')
+                    format='%(asctime)s| (%(levelname)s | %(message)s')
 
 
 class RunnerTest(unittest.TestCase):
